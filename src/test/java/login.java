@@ -14,9 +14,9 @@ public class login {
 	@BeforeTest
   public void f() {
 		WebDriverManager.chromedriver().setup();
-    	ChromeOptions co=new ChromeOptions();
-    	co.addArguments("--remote-allow-origins=*");
-		 driver=new ChromeDriver(co);
+    	
+    
+		 driver=new ChromeDriver();
 	  driver.get("https://google.com");
   }
   @Test
