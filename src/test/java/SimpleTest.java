@@ -21,7 +21,7 @@ public class SimpleTest {
   public void f1() {
 	  String txt=driver.getTitle();
 	  System.out.println(txt);
-	Assert.assertEquals(false, null);
+	Assert.assertEquals(txt, "bing");
   }
   @AfterTest
   public void f2() {
