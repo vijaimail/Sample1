@@ -13,7 +13,7 @@ public class login {
 	WebDriver driver;
 	@BeforeTest
   public void f() {
-		WebDriverManager.chromedriver().setup();
+	
     	
     
 		 driver=new ChromeDriver();
