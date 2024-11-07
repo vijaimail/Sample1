@@ -13,7 +13,7 @@ public class SimpleTest {
 	WebDriver driver;
 	@BeforeTest
   public void f() {
-		WebDriverManager.chromedriver().setup();
+		
 		 driver=new ChromeDriver();
 	  driver.get("https://bing.com");
   }
